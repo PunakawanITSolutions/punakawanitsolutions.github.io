@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #header .logo {
-  font-size: 30px;
+  font-size: 24px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 34px;
 }
 
 .header-inner-pages {
@@ -200,6 +200,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-text a{
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  #header .logo img {
+    max-height: 32px;
+  }
+  #header .logo {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
 }
 /*--------------------------------------------------------------
 # Navigation Menu
