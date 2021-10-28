@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #header .logo {
-  font-size: 30px;
+  font-size: 24px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 34px;
 }
 
 .header-inner-pages {
@@ -200,6 +200,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-text a{
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  #header .logo img {
+    max-height: 32px;
+  }
+  #header .logo {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -2099,6 +2113,22 @@ section {
 
 /* Additional */
 
-#span .cc-7doi .cc-1ada {
+#span .cc-7doi {
   background-color: #057285 !important ;
+}
+
+/* Float icon live chat */
+.crisp-client > .cc-kv6t > .cc-1ada, .crisp-client > .cc-kv6t > .cc-ew5j:before, .crisp-client > .cc-kv6t > .cc-ew5j:after{
+  background-color: unset !important;
+}
+
+.cc-unoo .cc-7doi{
+  background-color: red !important;
+}
+
+.btn-send-message{
+  border: 2px solid hsla(200, 28%, 40%, 0.836);
+  width: fit-content;
+  margin: auto;
+  border-radius: 50px;
 }
