@@ -1028,11 +1028,12 @@ section {
   margin-right: 0;
 }
 .portfoio .portfolio-item {
-  margin-bottom: 30px;
-  overflow: hidden;
+  width: 20%;
+  margin: 10px 10px;
+  /* overflow: hidden; */
+  position: relative;
 }
 .portfoio .portfolio-item img {
-  position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -1045,7 +1046,7 @@ section {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
-  padding: 15px 20px;
+  padding: 5px 20px;
 }
 .portfoio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -1145,8 +1146,12 @@ section {
 }
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
   border-radius: 50%;
+  max-width: 180px;
+  max-height: 180px;
+}
+.pic img{
+  width: 100%;
 }
 .team .member .pic img {
   transition: ease-in-out 0.3s;
@@ -2131,4 +2136,7 @@ section {
   width: fit-content;
   margin: auto;
   border-radius: 50px;
+}
+.icon-box{
+  margin: 5px;
 }
