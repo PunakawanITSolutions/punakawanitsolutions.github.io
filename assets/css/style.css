@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -550,6 +550,11 @@ section {
   padding-bottom: 0;
   color: #057285;
 }
+.section-title h3 {
+  font-weight: bold;
+  color: #057285;
+  margin-bottom: 10px;
+}
 .section-title p {
   margin-bottom: 0;
   font-style: italic;
@@ -602,7 +607,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/about-bg.png") top center no-repeat;
+  background: url("../img/logo+teks.png") top center no-repeat;
   position: relative;
 }
 .about:before {
@@ -1059,8 +1064,8 @@ section {
   margin-bottom: 0;
 }
 .portfoio .portfolio-item .portfolio-info .preview-link, .portfoio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 50px;
+  /* position: absolute; */
+  /* right: 50px; */
   font-size: 24px;
   top: calc(50% - 18px);
   color: white;
@@ -1387,7 +1392,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left center no-repeat;
+  background: url("../img/logo+teks.png") center no-repeat;
   position: relative;
 }
 .contact:before {
@@ -1436,7 +1441,6 @@ section {
 }
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
@@ -1494,9 +1498,9 @@ section {
   padding: 10px 32px;
   color: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
   transition: 0.4s;
-  border-radius: 50px;
-  border: 2px solid linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
-  background: #fff;
+  border-radius: 5px;
+  /* border: 2px solid linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%); */
+  background: rgba(255, 255, 255, 0.753);
 }
 .contact .php-email-form button[type=submit]:hover {
   background: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
@@ -2135,7 +2139,10 @@ section {
   border: 2px solid hsla(200, 28%, 40%, 0.836);
   width: fit-content;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 8px;
+}
+.btn-send-message:hover{
+  color: white;
 }
 .icon-box{
   margin: 5px;
@@ -2147,8 +2154,27 @@ section {
     margin: 5px;
     width: 100%;
   }
+  .footer-puna{
+    display: block !important;
+    text-align: center;
+  }
+  .footer-info{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.658);
+  }
 }
-
+.portfolio-info{
+  text-align: center;
+}
 .portfolio-item{
   max-width: 300px;
+}
+a{
+  text-decoration: none !important;
+}
+.send-email{
+  max-width: 500px;
+}
+.form-control{
+  background-color: rgba(255, 255, 255, 0.733);
 }
