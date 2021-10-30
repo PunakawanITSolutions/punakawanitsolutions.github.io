@@ -2167,11 +2167,14 @@ section {
   text-align: center;
 }
 .portfolio-item{
-  max-width: 275px;
+  /* max-width: 275px; */
+  width: fit-content;
+  overflow: hidden;
 }
 
 .portfolio-item img {
   max-height: 225px;
+  max-width: 275px;
 }
 
 a{
