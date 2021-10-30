@@ -2167,8 +2167,13 @@ section {
   text-align: center;
 }
 .portfolio-item{
-  max-width: 300px;
+  max-width: 275px;
 }
+
+.portfolio-item img {
+  max-height: 225px;
+}
+
 a{
   text-decoration: none !important;
 }
