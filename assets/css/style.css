@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/logo+teks.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -1028,7 +1028,7 @@ section {
   margin-right: 0;
 }
 .portfoio .portfolio-item {
-  width: 20%;
+  max-width: 300px;
   margin: 10px 10px;
   /* overflow: hidden; */
   position: relative;
@@ -2139,4 +2139,16 @@ section {
 }
 .icon-box{
   margin: 5px;
+  width: calc(100% / 2.5);
+}
+
+@media screen and (max-width: 768px) {
+  .icon-box{
+    margin: 5px;
+    width: 100%;
+  }
+}
+
+.portfolio-item{
+  max-width: 300px;
 }
