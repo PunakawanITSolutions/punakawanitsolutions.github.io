@@ -1395,9 +1395,16 @@ section {
   background: url("../img/logo+teks.png") center no-repeat;
   position: relative;
 }
+.section-title-contact h3 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #fbfeff;
+  margin-bottom: 10px;
+}
 .contact:before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(20, 112, 112, 0.788);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1503,8 +1510,8 @@ section {
   background: rgba(255, 255, 255, 0.753);
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
-  color: #fff;
+  background: linear-gradient(90deg, hsla(181, 41%, 76%, 0.753) 0%, hsla(181, 41%, 76%, 0.753) 100%);
+  color: rgb(57, 61, 21);
 }
 @-webkit-keyframes animate-loading {
   0% {
