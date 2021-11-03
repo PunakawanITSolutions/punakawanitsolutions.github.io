@@ -464,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 #hero h2 {
-  color: #fff;
+  color: rgb(0, 61, 63);
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: rgb(0, 61, 63);
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -497,10 +497,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: rgb(20, 20, 20);
+  color: rgb(0, 70, 92);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #ffffff;
+  border: 2px solid #00576d;
 }
 #hero .btn-get-started:hover {
   background: #2b2b2b;
@@ -1395,9 +1395,16 @@ section {
   background: url("../img/logo+teks.png") center no-repeat;
   position: relative;
 }
+.section-title-contact h3 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: #fbfeff;
+  margin-bottom: 10px;
+}
 .contact:before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(20, 112, 112, 0.788);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1503,8 +1510,8 @@ section {
   background: rgba(255, 255, 255, 0.753);
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
-  color: #fff;
+  background: linear-gradient(90deg, hsla(181, 41%, 76%, 0.753) 0%, hsla(181, 41%, 76%, 0.753) 100%);
+  color: rgb(57, 61, 21);
 }
 @-webkit-keyframes animate-loading {
   0% {
