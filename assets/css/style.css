@@ -937,7 +937,7 @@ section {
   line-height: 0;
 }
 .services .icon-box h4 {
-  margin-left: 70px;
+  margin-left: 30px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -950,7 +950,7 @@ section {
   color: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
 }
 .services .icon-box p {
-  margin-left: 70px;
+  margin-left: 30px;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -2192,4 +2192,12 @@ a{
 }
 .form-control{
   background-color: rgba(255, 255, 255, 0.733);
+}
+.icon-box{
+  display: flex;
+}
+#andro-container{
+  width: 50px !important;
+  height: 50px !important;
+  text-align: center;
 }
