@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 35px;
+  right: 20px;
   bottom: 85px;
   z-index: 996;
   background: linear-gradient(90deg, hsla(200, 28%, 40%, 0.836) 0%, hsla(182, 28%, 40%, 0.753) 100%);
