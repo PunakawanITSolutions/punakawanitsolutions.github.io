@@ -523,8 +523,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px), (max-height: 700px) {
   #hero {
-    height: 120vh;
+    height: 100vh;
     padding: 100px 0;
+    /* background: url(../img/logo.png) top center;
+    background-size: 500px;
+    background-position: center; */
   }
   #hero h2 {
     font-size: 28px;
