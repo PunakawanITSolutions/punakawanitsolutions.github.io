@@ -1168,6 +1168,16 @@ section {
   max-height: 180px;
   border-radius: 100%;
 }
+@media (min-width: 769px) {
+  .slide-prof::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slide-prof::-webkit-scrollbar {
+    display: initial;
+  }
+}
 .team .member .pic img {
   transition: ease-in-out 0.3s;
 }
