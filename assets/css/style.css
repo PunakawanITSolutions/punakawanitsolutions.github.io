@@ -1217,6 +1217,7 @@ section {
 .social {
   margin: 12px 0px;
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
 }
