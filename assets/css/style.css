@@ -2199,6 +2199,7 @@ section {
   /* max-width: 275px; */
   width: fit-content;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio-item img {
